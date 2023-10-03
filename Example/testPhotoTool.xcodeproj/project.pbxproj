@@ -14,6 +14,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6ABBE5E92ACC38380089C5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		6ABBE5EA2ACC38380089C5F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		6ABBE5EB2ACC38450089C5F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		C108ED0F99B517A5863DA98C /* Pods_testPhotoTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54151DA8CC1D5EEB7CA4C7DD /* Pods_testPhotoTool_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +33,7 @@
 /* Begin PBXFileReference section */
 		0E96DFCC43D459FFC463E676 /* Pods-testPhotoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPhotoTool_Example.release.xcconfig"; path = "Target Support Files/Pods-testPhotoTool_Example/Pods-testPhotoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		342A295C038C7089B0C16FCF /* Pods_testPhotoTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPhotoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39882E167B190C4D5DC72E4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		39882E167B190C4D5DC72E4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43614793D01E041CDF50BFBA /* Pods-testPhotoTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPhotoTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testPhotoTool_Tests/Pods-testPhotoTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		54151DA8CC1D5EEB7CA4C7DD /* Pods_testPhotoTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPhotoTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* testPhotoTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPhotoTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +47,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B070C2E7B7F9A4AB7DCF4F5 /* Pods-testPhotoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPhotoTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-testPhotoTool_Tests/Pods-testPhotoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		860ECB288448B3A45B249AC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		860ECB288448B3A45B249AC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D38467052381F48564889F2C /* Pods-testPhotoTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPhotoTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-testPhotoTool_Example/Pods-testPhotoTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D93F9A264891E9CC98A8F1AC /* testPhotoTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testPhotoTool.podspec; path = ../testPhotoTool.podspec; sourceTree = "<group>"; };
+		D93F9A264891E9CC98A8F1AC /* testPhotoTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testPhotoTool.podspec; path = ../testPhotoTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,6 @@
 				43614793D01E041CDF50BFBA /* Pods-testPhotoTool_Tests.debug.xcconfig */,
 				7B070C2E7B7F9A4AB7DCF4F5 /* Pods-testPhotoTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UZ9F6Q8D62;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UZ9F6Q8D62;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -256,6 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ABBE5EB2ACC38450089C5F9 /* Images.xcassets in Resources */,
+				6ABBE5E92ACC38380089C5F9 /* Main.storyboard in Resources */,
+				6ABBE5EA2ACC38380089C5F9 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +486,9 @@
 			baseConfigurationReference = D38467052381F48564889F2C /* Pods-testPhotoTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZ9F6Q8D62;
 				INFOPLIST_FILE = testPhotoTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +503,9 @@
 			baseConfigurationReference = 0E96DFCC43D459FFC463E676 /* Pods-testPhotoTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZ9F6Q8D62;
 				INFOPLIST_FILE = testPhotoTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43614793D01E041CDF50BFBA /* Pods-testPhotoTool_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UZ9F6Q8D62;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B070C2E7B7F9A4AB7DCF4F5 /* Pods-testPhotoTool_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UZ9F6Q8D62;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
