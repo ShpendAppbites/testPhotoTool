@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'testPhotoTool_Example' do
+  pod 'testPhotoTool', :path => '../'
+
+  target 'testPhotoTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
