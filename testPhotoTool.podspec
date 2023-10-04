@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPhotoTool'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Im testing the pod to later add to my projects'
   s.swift_versions   = '5.0'
 
