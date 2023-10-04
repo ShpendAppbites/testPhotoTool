@@ -1,5 +1,5 @@
 PODS:
-  - testPhotoTool (0.1.0)
+  - testPhotoTool (0.0.2)
 
 DEPENDENCIES:
   - testPhotoTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  testPhotoTool: a3494c3e85e7762c53fd6659d16b08cfb0793a8d
+  testPhotoTool: 78e84106cd661eb0e88c1e71d9fb7f48405e9c73
 
 PODFILE CHECKSUM: 7e0f3b0aeab778dbe67c087b325ce15ff08d8a1e
 
